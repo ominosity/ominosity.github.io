@@ -1,7 +1,14 @@
 body {
-  font-family: 'Open Sans', sans-serif; 
-  font-weight: 400;
-  color: #1f1e1e;
-  font-size: 15px;
-  line-height: 21px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    color: #1f1e1e;
+    font-size: 15px;
+    line-height: 21px;
 }
+
+.TableTitle {
+    background-color: #245dad;
+    color: white;
+    background: URL("http://www.seminolecountyfl.gov/_resources/images/logo-seminole.jpg");
+}
+
