@@ -1,19 +1,7 @@
 body {
-  background-color: red;
-}
-
-form {
-  background-color: red;
-}
-
-table {
-  background-color: red;
-}
-
-tr {
-  background-color: red;
-}
-
-td {
-  background-color: red;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 400;
+  color: #1f1e1e;
+  font-size: 15px;
+  line-height: 21px;
 }
