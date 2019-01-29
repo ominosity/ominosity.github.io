@@ -6,9 +6,43 @@ body {
     line-height: 21px;
 }
 
-.TableTitle {
-    background-color: #245dad;
-    color: white;
-    background: URL("http://www.seminolecountyfl.gov/_resources/images/logo-seminole.jpg");
+a: active {
+    color: 7f8f42;   
 }
 
+.TableTitle {
+    background-color: #245dad;
+    color: white;  
+}
+
+.adoptSearch {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.GridResultsContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gridResult {
+    float: left;  
+    width: 25%;
+}
+
+.gridResult:nth-child(odd) {
+    background-color: #245dad;
+}
+
+.gridResult:nth-child(even) {
+    background-color: #25813b;
+}
+
+.gridResult img {
+    width: 200px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: medium double #1f1e1e;
+    margin: 0 auto;
+}
