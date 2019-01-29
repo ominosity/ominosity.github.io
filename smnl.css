@@ -13,21 +13,28 @@ a: active {
 .TableTitle {
     background-color: #245dad;
     color: white;  
+    font-weight: bold; 
 }
 
 .adoptSearch {
-    width: 50%;
+    width: 400px;
     margin: 0 auto;
 }
 
+.adoptSearch select {
+    margin-right: 10px;   
+}
+
 .GridResultsContainer {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
 .gridResult {
     float: left;  
     width: 25%;
+    margin: 15px;
+    width: 250px;
 }
 
 .gridResult:nth-child(odd) {
@@ -45,4 +52,9 @@ a: active {
     -moz-border-radius: 5px;
     border: medium double #1f1e1e;
     margin: 0 auto;
+}
+
+.gridText {
+    padding-left: 15px;
+    padding-right: 15px;
 }
