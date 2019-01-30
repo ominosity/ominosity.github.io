@@ -127,8 +127,11 @@ a: active {
     
     center:nth-of-type(3) a {
         display: inline-block;
-        border: medium solid black;
+        border: thin solid black;
         margin: 10px;
-        float: left;
+        padding: 5px;
+        -webkit-box-shadow: 2px 2px 3px 0px #ccc;
+        -moz-box-shadow: 2px 2px 3px 0px #ccc;
+        box-shadow: 2px 2px 3px 0px #ccc;
     }
 }
