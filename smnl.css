@@ -69,6 +69,11 @@ a: active {
     color: white;
 }
 
+.DetailTable td {
+    display: block;
+    float: left;
+}
+
 @media (max-width: 550px) {
     .adoptSearch {
         width: 500px;
