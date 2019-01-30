@@ -82,16 +82,16 @@ center:nth-child(2) {
     font-weight: bold;
 }
 
-@media (max-width: 550px) {
+@media screen with (max-width: 479px) {
     .adoptSearch {
-        width: 500px;
+        width: 429px;
         font-size: 15px;
         margin: 0 auto;
         text-align: center;
     }
     
     .gridResult {
-        width: 400px;
+        width: 329px;
         display: block;
         height: auto;
         min-height: 450px;
