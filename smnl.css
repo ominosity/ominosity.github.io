@@ -77,7 +77,7 @@ a: active {
     display: inline-table;   
 }
 
-@media screen with (max-width: 479px) {
+@media (max-width: 479px) {
     .adoptSearch {
         width: 429px;
         font-size: 15px;
