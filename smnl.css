@@ -103,11 +103,14 @@ a: active {
     .DetailTable img {
         display: block;
         margin: 0 auto;
-        width: 400px;
+        width: 300px;
         border: medium double #245dad;
-        border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 2px 2px 3px 0px #ccc;
+        -moz-box-shadow: 2px 2px 3px 0px #ccc;
+        box-shadow: 2px 2px 3px 0px #ccc;
     }
     
     .DetailTable td {
@@ -116,13 +119,13 @@ a: active {
         text-align: center;
     }
     
-    center:nth-of-type(3) a {
-    font-size: 60px;
+    center:nth-of-type(3) {
+    font-size: 30px;
     font-weight: bold;
-    display: block;
+    display: inline-block;
     float: left;
-    border: thin solid black;
+    border: medium solid black;
     padding: 5px;
-    margin: 5px; 
+    margin: 5px;        
     }
 }
