@@ -77,6 +77,11 @@ a: active {
     display: inline-table;   
 }
 
+center {
+    font-size: 120px;
+    font-weight: bold;
+}
+
 @media (max-width: 550px) {
     .adoptSearch {
         width: 500px;
@@ -89,6 +94,7 @@ a: active {
         width: 400px;
         display: block;
         height: auto;
+        min-height: 450px;
     }
     
     .gridResult a img {
