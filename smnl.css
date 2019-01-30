@@ -70,8 +70,11 @@ a: active {
 }
 
 .DetailTable td {
-    display: block;
-    float: left;
+    display: table-cell;
+}
+
+.DetailTable img {
+    display: inline-table;   
 }
 
 @media (max-width: 550px) {
@@ -95,12 +98,19 @@ a: active {
         display: block;   
     }
     
-    center a {
+    .DetailTable img {
         display: block;
-        font-size: 25px;   
-        width: 100px;
+        margin: 0 auto;
+        width: 400px;
+        border: medium double #245dad;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+    }
+    
+    .DetailTable td {
+        display: block;
         float: left;
-        padding: 5px;
-        border: thin solid black;
+        text-align: center;
     }
 }
