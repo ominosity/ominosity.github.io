@@ -120,12 +120,15 @@ a: active {
     }
     
     center:nth-of-type(3) {
-    font-size: 30px;
-    font-weight: bold;
-    display: inline-block;
-    float: left;
-    border: medium solid black;
-    padding: 5px;
-    margin: 5px;        
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 35px;
+    }
+    
+    center:nth-of-type(3) a {
+        display: inline-block;
+        border: medium solid black;
+        margin: 10px;
+        float: left;
     }
 }
